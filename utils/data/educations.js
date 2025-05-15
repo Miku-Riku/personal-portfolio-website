@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "B Tech in Computer Science and Engineering",
+    duration: "2020-2024",
+    institution: "National Institute of Technology, Allahabad",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "12th grade",
+    duration: "2017 - 2019",
+    institution: "NRI Junior College",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "10th grade",
+    duration: "2017 passout",
+    institution: "Sri Chaitanya Techno School",
   }
 ]
