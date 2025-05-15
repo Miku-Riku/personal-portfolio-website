@@ -2,25 +2,12 @@
     <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
----
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
----
-
-# Developer Portfolio
-
-#### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+# personal-portfolio-website
 
 ---
 
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
-
----
+### You can use this template made with nextJS, to simplify and style your own portfolio.
 
 ## Table of Contents :scroll:
 
@@ -38,48 +25,28 @@
 
 ---
 
-# Sections :bookmark:
-
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
-
----
-
 # Installation :arrow_down:
 
-### You will need to download Git and Node to run this project
+### You will need to download Git and Node (latest version) to run this project
 
 - [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-```bash
-node --version
-git --version
-```
+- [Node](https://nodejs.org/en/download)
 
 ## <br />
 
 # Getting Started :dart:
 
-### Fork and Clone the repo
+### Fork or Clone the repo
 
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
+- To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
+- To clone to your local folder, click 'code' on top-right and download and extra zip or use GIThub desktop or follow the below commands.
 ```bash
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/personal-portfolio-website.git
 
-cd developer-portfolio
+cd personal-portfolio-website
 ```
 
-### Install packages from the root directory
+### Install node packages from the root directory
 
 ```bash
 npm install
@@ -99,36 +66,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-### Running with Docker Compose
-
-1. **Build Docker Image and Run Container**:
-    ```bash
-    docker-compose up --build
-    ```
-
-2. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
-
-### Building the Docker Image
-
-1. **Build the Docker Image using Dockerfile.dev**:
-
-    ```bash
-    docker build -t nextjs-app -f Dockerfile.dev .
-    ```
-
-2. **Running the Docker Container**:
-
-    ```bash
-    docker run -p 3000:3000 nextjs-app
-    ```
-
-3. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
-
----
 
 # Usage :joystick:
 
