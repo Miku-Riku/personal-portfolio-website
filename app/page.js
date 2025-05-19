@@ -8,19 +8,22 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
-async function getData() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
 
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
-  }
+// -----------------Used to get and process Blog data from dev-folio------------------
 
-  const data = await res.json();
+// async function getData() {
+//   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
 
-  const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+//   if (!res.ok) {
+//     throw new Error('Failed to fetch data')
+//   }
 
-  return filtered;
-};
+//   const data = await res.json();
+
+//   const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+
+//   return filtered;
+// };
 
 export default async function Home() {
   // const blogs = await getData();
