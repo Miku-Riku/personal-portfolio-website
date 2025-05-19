@@ -13,7 +13,10 @@ export const metadata = {
   title: "Welcome to my Portfolio, This is V Bhaswanth - Web developer",
   description:
     "I am a Full Stack Developer, I am fascinated about new technologies and very curious and interested to learn and explre and get skilled. And I am a quick learner always looking for new challenges.",
-};
+  icons: {
+          icon: '/favicon.ico',
+        }
+  };
 
 export default function RootLayout({ children }) {
   return (
