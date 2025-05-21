@@ -7,6 +7,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
 // import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import Link from 'next/link';
 
 import dynamic from 'next/dynamic';
 
@@ -70,7 +71,7 @@ function Education() {
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                           {education.title}
                         </p>
-                        <p className="text-sm sm:text-base">{education.institution}</p>
+                        <p className="text-sm sm:text-base"><Link target="_blank" href={education.link} className = "underline">{education.institution}</Link></p>
                       </div>
                     </div>
                   </div>
