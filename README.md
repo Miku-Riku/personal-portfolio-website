@@ -3,9 +3,9 @@
 ---
 
 Hello This is V Bhaswanth
-This is my personal portfolio website production build live on vervel.
-
+This is my personal portfolio website production build live on vercel.
 You can know more about me [here](https://personal-portfolio-website-iota-gules.vercel.app/) 
+
 ---
 
 
