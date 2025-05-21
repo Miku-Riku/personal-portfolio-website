@@ -1,7 +1,7 @@
 # personal-portfolio-website
 
 Hello This is V Bhaswanth <br>
-This is my personal portfolio website production build live on vercel.<br>
+This is my personal portfolio website source code, whose production build is live on vercel.<br>
 You can know more about me [here](https://personal-portfolio-website-iota-gules.vercel.app/) 
 
 
