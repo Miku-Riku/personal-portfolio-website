@@ -55,7 +55,7 @@ function ContactForm() {
 
   return (
     <div>
-      <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact Me</p>
+      <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Contact Me or give me feedback</p>
       <div className="max-w-3xl text-[#e1ece2] rounded-lg border border-[#4a6b4f] p-3 lg:p-5 bg-[#164c28]">
         <p className="text-sm text-[#b8c9ba]">
           {"If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests."}
