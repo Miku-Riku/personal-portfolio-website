@@ -22,10 +22,12 @@ function AboutSection() {
             Who I am?
           </p>
           <p className="text-[#c5e2d1] text-sm lg:text-lg">
-            {personalData.description}
+            {personalData.description.split('\n').map((line, index) => (
+              <span key={index}>{line}<br /></span>
+            ))}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
+        <div className="flex justify-center order-1 lg:order-2 items-center">
           <Image
             src={personalData.profile}
             width={280}
